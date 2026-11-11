@@ -250,7 +250,7 @@ QToolButton:disabled {
 }
 
 QToolButton::menu-indicator {
-    image: url(:/icons/asagiOk.png);
+    image: url(./dataTheme/icons/downArrow.svg);
     subcontrol-origin: padding;
     subcontrol-position: center right;
     right: 4px;
@@ -483,13 +483,13 @@ QSpinBox::down-button:pressed, QDoubleSpinBox::down-button:pressed, QTimeEdit::d
 }
 
 QSpinBox::up-arrow, QDoubleSpinBox::up-arrow, QTimeEdit::up-arrow, QDateEdit::up-arrow, QDateTimeEdit::up-arrow {
-    image: url(:/icons/yukariOk.png);
+    image: url(./dataTheme/icons/upArrow.svg);
     width: 10px;
     height: 10px;
 }
 
 QSpinBox::down-arrow, QDoubleSpinBox::down-arrow, QTimeEdit::down-arrow, QDateEdit::down-arrow, QDateTimeEdit::down-arrow {
-    image: url(:/icons/asagiOk.png);
+    image: url(./dataTheme/icons/downArrow.svg);
     width: 10px;
     height: 10px;
 }
@@ -546,7 +546,7 @@ QComboBox::drop-down:hover {
 }
 
 QComboBox::down-arrow {
-    image: url(:/icons/asagiOk.png);
+    image: url(./dataTheme/icons/downArrow.svg);
     width: 12px;
     height: 12px;
 }
@@ -674,12 +674,12 @@ QTableCornerButton::section {
 /* Tree branches */
 QTreeView::branch:has-children:!has-siblings:closed,
 QTreeView::branch:closed:has-children:has-siblings {
-    image: url(:/icons/asagiOk.png);
+    image: url(./dataTheme/icons/downArrow.svg);
 }
 
 QTreeView::branch:open:has-children:!has-siblings,
 QTreeView::branch:open:has-children:has-siblings {
-    image: url(:/icons/yukariOk.png);
+    image: url(./dataTheme/icons/upArrow.svg);
 }
 
 /* ============================================================================
@@ -1023,7 +1023,7 @@ QDockWidget {
     font: 600 11pt "Bahnschrift SemiBold";
     border: 2px solid #BBDEFB;
     border-radius: 10px;
-    titlebar-close-icon: url(:/icons/asagiOk.png);
+    titlebar-close-icon: url(./dataTheme/icons/downArrow.svg);
 }
 
 QDockWidget:hover {
