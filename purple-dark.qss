@@ -62,8 +62,21 @@ QFrame[frameShape="3"]  /* StyledPanel */ {
     border-radius: 12px;
 }
 
-/* Dividers / Lines */
-QFrame[frameShape="4"] /* HLine */ {
+/* Dividers / Lines (QLine & QFrame Line shapes) */
+QLine,
+QFrame[frameShape="4"],
+QFrame[frameShape="HLine"],
+QFrame[frameShape="5"],
+QFrame[frameShape="VLine"] {
+    background-color: #26143A;
+    border: none;
+    color: #26143A;
+}
+
+QLine,
+QLine[orientation="horizontal"],
+QFrame[frameShape="4"],
+QFrame[frameShape="HLine"] {
     background-color: #26143A;
     border: none;
     max-height: 1px;
@@ -71,7 +84,9 @@ QFrame[frameShape="4"] /* HLine */ {
     margin: 4px 0px;
 }
 
-QFrame[frameShape="5"] /* VLine */ {
+QLine[orientation="vertical"],
+QFrame[frameShape="5"],
+QFrame[frameShape="VLine"] {
     background-color: #26143A;
     border: none;
     max-width: 1px;
