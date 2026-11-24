@@ -628,9 +628,6 @@ QListView::item, QTreeView::item, QTableView::item {
     color: #0D47A1;
     border: 1px solid transparent;
     border-radius: 6px;
-    padding: 4px 6px;
-    margin: 2px;
-    min-height: 24px;
 }
 
 QListView::item:hover, QTreeView::item:hover, QTableView::item:hover {
